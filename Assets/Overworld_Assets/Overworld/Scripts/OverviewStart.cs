@@ -16,7 +16,6 @@ public class OverviewStart : MonoBehaviour {
     public GameObject scoreKeeper;
     public GameObject title;
     public GameObject background;
-    public Sprite button_background;
     public Sprite avatar1;
     public Sprite avatar2;
     public Sprite avatar3;
@@ -104,7 +103,6 @@ public class OverviewStart : MonoBehaviour {
         schoolButton.GetComponent<Button>().interactable = false;
         bathroomButton.GetComponent<Button>().interactable = false;
         phoneButton.GetComponent<Button>().interactable = false;
-        background.GetComponent<SpriteRenderer>().sprite = button_background;
 
         // These are the strings from the text fields
         string loginUsername = loginUser.GetComponent<InputField>().text;
@@ -145,7 +143,6 @@ public class OverviewStart : MonoBehaviour {
         schoolButton.GetComponent<Button>().interactable = false;
         bathroomButton.GetComponent<Button>().interactable = false;
         phoneButton.GetComponent<Button>().interactable = false;
-        background.GetComponent<SpriteRenderer>().sprite = button_background;
 
         // These are the strings from the text fields
         string signupUsername = signupUser.GetComponent<InputField>().text;
